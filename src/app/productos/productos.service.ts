@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import{Productos} from '../productos';
+//import{Productos} from '../productos';
 import {HttpClient} from '@angular/common/http'
 
 @Injectable({
@@ -10,8 +10,5 @@ export class ProductosService {
 
   constructor(private http: HttpClient){}
 
-  getProductos(): Observable<Productos[]> {
-    return this.http.get(this.urlEndPoint);
-  }
 
 }

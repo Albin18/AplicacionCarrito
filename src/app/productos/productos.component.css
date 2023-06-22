@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 
+
 *{
   margin: 0;
   padding: 0;
 
+}
+body{
+  background: #202020;
 }
 
 section{
@@ -21,6 +25,8 @@ section{
 }
 .contenedor .contenedor-items{
   margin-top: 30px;
+
+  color: white;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 30px;
@@ -31,14 +37,15 @@ section{
 }
 .contenedor .contenedor-items .item{
 max-width: 200px;
+background-color: rgb(121, 121, 121);
 padding: 10px;
 margin: auto;
-border: 1px solid #666;
+border: 1px solid #000000;
 border-radius:10px ;
 transition: 1s;
 }
 .contenedor-items .item:hover{
-  box-shadow: 0 0 10px #3a3a3a;
+  box-shadow: 0 0 10px #ffffff;
   scale: 1.03;
 }
 
@@ -63,7 +70,7 @@ transition: 1s;
   display:block;
   margin: 10px auto;
   border: none;
-  background: black;
+  background: rgb(0, 10, 99);
   color: #fff;
   padding: 5px 15px;
   border-radius: 5px;
