@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class ProductosComponent {
 
+
+
+
+
+
+//const Clickbutton = document.querySelectorAll('.boton-item');
+
+//Clickbutton.forEach((button: Element) => {
+  //button.addEventListener('click', () => {
+    //console.log('button');
+  //});
+//});
 }

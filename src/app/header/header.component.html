@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-lg">
+  <img
+    src="/assets/img/LogoVip.jpg"
+    width="100"
+    height="100"
+    alt="..."
+    class="img-item"
+  />
   <div class="container-fluid py-2 container">
-    <img
-      src="/assets/img/LogoVip.jpg"
-      width="80"
-      height="80"
-      alt="..."
-      class="img-item"
-    />
     <button
       class="navbar-toggler bg-light"
       type="button"
@@ -25,14 +25,18 @@
             class="nav-link active text-white"
             aria-current="page"
             routerLink="/home"
-            >Home</a
+            ><i class="fa-solid fa-house"></i> Home</a
           >
         </li>
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link text-white" routerLink="/productos">Productos</a>
+          <a class="nav-link text-white" routerLink="/productos"
+            ><i class="fa-brands fa-shopify"></i> Productos</a
+          >
         </li>
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link text-white" routerLink="/carrito">Carrito</a>
+          <a class="nav-link text-white" routerLink="/carrito"
+            ><i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito</a
+          >
         </li>
       </ul>
       <form class="d-flex" role="search"></form>
